@@ -162,11 +162,7 @@ def test_plot_surf_roi():
     # plot roi
     plot_surf_roi(mesh, roi_map=roi_map)
     plot_surf_roi(mesh, roi_map=roi_map, colorbar=True)
-<<<<<<< HEAD
 	# change vmin, vmax
-=======
-    # change vmin, vmax
->>>>>>> feature
     img = plot_surf_roi(mesh, roi_map=roi_map,
 						vmin=1.2, vmax=8.9, colorbar=True)
     cbar = img.axes[-1]
